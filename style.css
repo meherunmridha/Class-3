@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: junge-regular;
+}
+
+@font-face{
+    font-family: 'Junge-Regular';
+    src: url(font/Junge-Regular.ttf);
+}
+
+body{
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url(image/UniversalUpscaler_13bd9a4f-64d8-4a2f-98a5-021866c2bb09.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
+    font-size: 13px;
+}
+
+div .Languae {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#head {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#button {
+    color: #ffffff;
+    text-align: center;
+}
